@@ -3,10 +3,10 @@
   <persistence-unit name="HibernatePU" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@192.168.1.36:1521:XE"/>
-      <property name="javax.persistence.jdbc.user" value="NICOLE"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@192.168.0.20:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="IMANIHDZ"/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.password" value="Criaturita7"/>
+      <property name="javax.persistence.jdbc.password" value="Saranghae13"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
       <property name="hibernate.show_sql" value="true"/>
     </properties>
